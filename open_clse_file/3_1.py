@@ -21,3 +21,5 @@ sorted_tuples = sorted(data.items(), key=sorted_tuple)
 
 for i in sorted_tuples:
     print(i)
+
+

@@ -11,7 +11,7 @@ for filename in os.listdir("sorted"):
             values.append(line.strip())
             data[filename] = values
 
-# pprint(data)
+pprint(data)
 
 def sorted_tuple(tuple_1):
     return len(tuple_1[1])
